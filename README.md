@@ -1,18 +1,25 @@
-# learning playground 🚀
+# Learning Playground 🚀
 
-yo, this is just me messing around and learning some dev stuff. trying to get better at terminal, git, python, all that good stuff.
+This repository documents my journey in learning development tools and practices, specifically focusing on terminal commands, Git, and Python.
 
-### whats in here:
-- `word_count.py`: simple script to count words in a file. cause why not.
-- `intro_notebook.ipynb`: just playing with jupyter and plotting some numpy arrays. data science vibes 📈
-- `dev_cheat_sheet.pdf`: made a python script (`make_cheatsheet.py`) to generate this pdf so i dont forget the basics. has terminal, git, and test commands.
+### Contents
 
-### how to run it:
-prob need to install some stuff first. i used uv for this:
+- **`word_count.py`**: A Python script that counts word frequencies in a text file.
+- **`intro_notebook.ipynb`**: A Jupyter Notebook demonstrating basic usage of NumPy and Matplotlib for data visualization.
+- **`dev_cheat_sheet.pdf`**: A generated PDF cheat sheet covering essential terminal, Git, and testing commands. The generation script is `make_cheatsheet.py`.
+
+### Installation and Usage
+
+To run the scripts and notebooks, you'll need Python installed. I recommend using `uv` or `pip` to install the dependencies:
+
 ```bash
 uv pip install numpy matplotlib jupyterlab fpdf
 ```
 
-then just run the scripts or fire up jupyter lab.
+Once installed, you can run the scripts directly or launch Jupyter Lab:
 
-peace ✌️
+```bash
+jupyter lab
+```
+
+Enjoy! ✌️
