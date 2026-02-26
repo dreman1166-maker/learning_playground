@@ -11,13 +11,17 @@ This repository contains a set of tutorials and experiments to learn basic machi
 ## Getting Started
 
 1. Install the dependencies:
+
    ```bash
    python -m pip install -r requirements.txt
    ```
+
 2. Run the training script:
+
    ```bash
    python ml_learning/train_linear.py
    ```
+
 3. Explore notebooks for detailed explanations and examples.
 
 ## Topics covered
